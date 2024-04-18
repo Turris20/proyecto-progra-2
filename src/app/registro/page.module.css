@@ -1,3 +1,43 @@
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.inputText, .inputEmail, .inputPassword {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputSubmit {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputSubmit:hover {
+  background-color: #0056b3;
+}
+
 .linkboton {
   display: inline-block;
   padding: 10px 20px;
